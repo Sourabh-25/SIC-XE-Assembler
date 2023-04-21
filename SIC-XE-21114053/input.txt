@@ -1,0 +1,8 @@
+.TEST 7(DUPLICATE MISSING SYMBOL)
+SUM     START   0
+FIRST   LDA     DATA
+        LDX     DATA
+        ADDR    X,  A
+        RSUB	
+    	WORD	1
+END     FIRST
